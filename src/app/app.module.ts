@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { NosotrosComponent } from './components/nosotros/nosotros.component';
 import { ContactoComponent } from './components/contacto/contacto.component';
 import { InicioComponent } from './components/inicio/inicio.component';
+import { NavegarComponent } from './components/navegar/navegar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NosotrosComponent,
     ContactoComponent,
-    InicioComponent
+    InicioComponent,
+    NavegarComponent
   ],
   imports: [
     BrowserModule,
